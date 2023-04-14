@@ -1,0 +1,24 @@
+﻿<Window x:Class="GitBashManager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GitBashManager"
+        mc:Ignorable="d"
+        Title="博客管理器 --by 醉雨非烟" Height="450" Width="800">
+    <Viewbox>
+    <Grid Height="436" Width="818">
+        <Button x:Name="BtnSView" Content="快速浏览" HorizontalAlignment="Center" Height="30" Width="96" Margin="0,116,0,0" FontSize="22" VerticalAlignment="Top" Background="#FFDDDDDD" Click="BtnSView_Clik"/>
+        <Button x:Name="BtnView" Content="本地浏览" HorizontalAlignment="Center" Height="30" Width="96" Margin="0,166,0,0" FontSize="22" VerticalAlignment="Top" Background="#FFDDDDDD" Click="BtnView_Clik"/>
+        <Button x:Name="BtnDeploy" Content="博客部署" HorizontalAlignment="Center" Height="30" Width="96" Margin="0,216,0,0" FontSize="22" VerticalAlignment="Top" Click="BtnDeploy_Clik"/>
+        <Button x:Name="BtnNewPost" Content="添加文章" HorizontalAlignment="Center" Height="30" Width="96" FontSize="22" VerticalAlignment="Top" Margin="-120,323,0,0" Click="BtnNewPost_Clik"/>
+        <Button x:Name="BtnOpen" Content="打开文件夹" HorizontalAlignment="Center" Height="30" Width="130" FontSize="22" VerticalAlignment="Top" Margin="150,323,0,0" Click="BtnOpen_Clik"/>
+        <Button x:Name="BtnSave" Content="保存" HorizontalAlignment="Left" Height="29" Margin="648,65,0,0" VerticalAlignment="Top" Width="55" Click="BtnSave_Clik" FontSize="18"/>
+        <Button x:Name="BtnOpenRoot" Content="打开" HorizontalAlignment="Left" Height="29" Margin="718,65,0,0" VerticalAlignment="Top" Width="55" Click="BtnOpenRoot_Clik" FontSize="18"/>
+        <Label x:Name="LabelPath" Content="博客路径：" HorizontalAlignment="Left" Height="40" Margin="120,66,0,0" VerticalAlignment="Top" Width="94" FontSize="18" Background="White" BorderBrush="Black" Foreground="#FF243BFF"/>
+        <TextBox x:Name="TextBoxPath" Text="例如：D:\Blog" HorizontalAlignment="Left" Margin="214,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="414" Height="29" FontSize="18" Background="White"/>
+        <Label x:Name="LabelPostName" Content="文章名字：" HorizontalAlignment="Left" Height="40" Margin="120,273,0,0" VerticalAlignment="Top" Width="94" FontSize="18" Background="White" BorderBrush="Black" Foreground="#FF243BFF"/>
+        <TextBox x:Name="TextBoxPostName" HorizontalAlignment="Left" Margin="214,273,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="414" Height="29" FontSize="18" Background="White"/>
+    </Grid>
+    </Viewbox>
+</Window>

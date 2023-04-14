@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>blog.ico</ApplicationIcon>
+    <Version>1.0.0</Version>
+    <PackageId></PackageId>
+    <Authors>醉雨非烟</Authors>
+    <Product></Product>
+    <Title>博客管理器</Title>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="blog.ico" />
+  </ItemGroup>
+
+</Project>
